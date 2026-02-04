@@ -8,6 +8,11 @@ const nextConfig = {
                 hostname: 'axuegixbqsvztdraenkz.supabase.co',
                 pathname: '/storage/v1/object/public/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'i.pravatar.cc',
+                pathname: '/**',
+            },
         ],
         dangerouslyAllowSVG: true,
         contentDispositionType: 'inline',
